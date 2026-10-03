@@ -1,16 +1,4 @@
-"
-Packaged CLI Diagnostics Tool
-Inspects:
-- Python version
-- Disk space
-- Environment variables
-- Developer tools
-Supports:
-- Human-readable output
-- JSON output
-- Configuration validation
-- Deterministic exit codes
-"
+
 
 import argparse
 import json
@@ -390,4 +378,4 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    (main())
